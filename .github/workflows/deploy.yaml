@@ -61,7 +61,7 @@ jobs:
     # Push the Docker image to Google Container Registry
     - name: Publish
       run: |-
-        docker push "us-docker.pkg.dev/byui-scrum-team-11am-mst/izak-api/stedi-api:latest "
+        docker push "us-docker.pkg.dev/byui-scrum-team-11am-mst/izak-api/stedi-api:latest"
 
     # Deploy the Docker image to the GKE cluster
     - name: Deploy
